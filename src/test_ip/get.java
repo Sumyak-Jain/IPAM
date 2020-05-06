@@ -1,4 +1,6 @@
- private void getActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getActionPerformed
+//code to get back the ip automatically
+
+private void getActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getActionPerformed
      
 		String dhcp="Wi-Fi";
 		
@@ -12,7 +14,7 @@
 		       new Thread(new gui.SyncPipe(p.getErrorStream(), System.err)).start();
 	               new Thread(new gui.SyncPipe(p.getInputStream(), System.out)).start();
 	                PrintWriter stdin = new PrintWriter(p.getOutputStream());
-	                stdin.println("netsh interface ip set address "+dhcp+" dhcp");
+	                stdin.println("netsh interface ip set address "+dhcp+" dhcp");//command
 	              
 		                stdin.close();
 	                p.waitFor();
