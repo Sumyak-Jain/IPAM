@@ -7,3 +7,4 @@ A application to manage IP of your system static or DHCP
 + it can also be used as a one time use i.e you can just activate a particular ip
 + or, you can make your account and make profiles with different ip configurations
 + a build is also made of this as networking_project.jar
+@kudoabhijeet
