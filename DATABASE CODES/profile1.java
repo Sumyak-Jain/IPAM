@@ -10,9 +10,9 @@
         
  
         try {
-            Connection conn = DriverManager.getConnection(url, user, password);
+            Connection conn = DriverManager.getConnection(url, user, password);//making the connection
  
-          String SQL="Select profile_name,ip,subnet,gateway,dns1,dns2 from profile where profile_name='"+Pname+"'";
+          String SQL="Select profile_name,ip,subnet,gateway,dns1,dns2 from profile where profile_name='"+Pname+"'";//writting the querry
           
            PreparedStatement statement = conn.prepareStatement(SQL);
  
@@ -21,7 +21,7 @@
    
     
 
-    ResultSet rs=statement.executeQuery(SQL);
+    ResultSet rs=statement.executeQuery(SQL);//storing result
     if(rs.next()==false){
         Window3 obj=new Window3();
         this.setVisible(false);
@@ -41,7 +41,7 @@
     this.setVisible(false);
     obj1.setVisible(true);
   // Window3 obj=new Window3();
-    
+    //displaying data
     obj1.profile_txt.setText(pn);
     
     obj1.IP_txt.setText(ip);
