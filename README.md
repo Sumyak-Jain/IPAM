@@ -19,6 +19,7 @@ A application to manage IP of your system static or DHCP
 + cmd networking commands to change your ip
 + MySQL 
 + JAVA Swing
++ JDBC
 
 ## Platform used
 + NetBeans IDE
