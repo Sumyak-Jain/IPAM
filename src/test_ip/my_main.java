@@ -13,12 +13,14 @@ package test_ip;
 import java.io.PrintWriter;
 public class my_main {
 	public static void main(String[] args) {
+		
+		//provide your information
 		String adapter_name="Wi-fi";
-		String ip_address="192.168.100.55";
-		String subnet_mask="255.255.255.0";
-		String default_gateway="192.168.100.1";
-		String dns_1="8.8.8.8";
-		String dns_2="8.8.4.4";
+		String ip_address="";
+		String subnet_mask="";
+		String default_gateway="";
+		String dns_1="";
+		String dns_2="";
 		String[] command =
 	    {
 	        "cmd",
