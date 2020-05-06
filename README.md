@@ -20,3 +20,7 @@ A application to manage IP of your system static or DHCP
 + MySQL 
 + JAVA Swing
 
+## Platform used
++ NetBeans IDE
++ MySQL workbench
+
