@@ -1,4 +1,7 @@
- private void saveActionPerformed(java.awt.event.ActionEvent evt) {
+//this code is for saving the information to PROFILE table 
+
+
+private void saveActionPerformed(java.awt.event.ActionEvent evt) {
         
        
         String url = "jdbc:mysql://localhost:3306/ipam";
