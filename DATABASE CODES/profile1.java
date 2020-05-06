@@ -5,7 +5,7 @@
         String user = "root";
         String password = "01234";
  
-         String Pname=profile1.getText();
+         String Pname=profile1.getText();//getting the name of button
         System.out.println(Pname);
         
  
