@@ -10,3 +10,6 @@ A application to manage IP of your system static or DHCP
 + or, you can make your account and make profiles with different ip configurations for further use
 + A build of this is also made of this as [networking_project.jar](https://github.com/sumyak/IPAM/tree/master/dist)
 
+## Co-members
++ [kudoabhijeet](https://github.com/kudoabhijeet)
+
