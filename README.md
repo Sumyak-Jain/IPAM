@@ -1,6 +1,6 @@
 # IPAM
 ### IP address manager
-A application to manage IP of your system static and automatically
+A application to manage IP of your system static or DHCP
 
 + it helps you to change your system ip statically
 + we can also get our public ip back automatically
