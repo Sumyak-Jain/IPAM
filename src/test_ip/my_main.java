@@ -42,3 +42,4 @@ public class my_main {
 		}
 	}	
 }
+//this will call SyncPipe to display cmd output on your console
