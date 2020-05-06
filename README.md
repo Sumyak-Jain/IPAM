@@ -1,8 +1,8 @@
 # IPAM
-### IP address manager
+## IP address manager
 A application to manage IP of your system static or DHCP
 
-###what's is use?
+## what's is use?
 
 + It helps you to change your system ip statically.
 + You can also get your public ip back automatically.
