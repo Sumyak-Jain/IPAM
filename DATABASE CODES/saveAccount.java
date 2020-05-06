@@ -1,3 +1,5 @@
+//this code is for saving the details to create new account
+
 private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
        String url = "jdbc:mysql://localhost:3306/ipam";
         String user = "root";
