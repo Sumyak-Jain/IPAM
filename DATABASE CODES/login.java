@@ -1,3 +1,4 @@
+// this code is for validating the login credentials
 
     private void loginActionPerformed(java.awt.event.ActionEvent evt) {
     String pass1=password_txt.getText();//storing the password given by the user
