@@ -14,3 +14,9 @@ A application to manage IP of your system static or DHCP
 + [kudoabhijeet](https://github.com/kudoabhijeet)
 + [vanshika1009](https://github.com/vanshika1009)
 
+# Language and Technologies used
++ JAVA
++ cmd networking commands to change your ip
++ MySQL 
++ JAVA Swing
+
