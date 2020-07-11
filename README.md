@@ -1,4 +1,5 @@
 # IPAM
+**NOTE** This application should be run under administrator only
 ## IP address manager
 A application to manage IP of your system static or DHCP
 
